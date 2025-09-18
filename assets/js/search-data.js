@@ -400,14 +400,14 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "projects-project-1",
-          title: 'project 1',
+      },{id: "projects-fabrication-of-3d-scaffolds-and-an-assesment-of-their-viability",
+          title: 'Fabrication of 3D Scaffolds and an Assesment of their Viability',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-cost-and-punishment-proximity",
+          title: 'Cost and Punishment Proximity',
+          description: "Conducted at IISC Bangalore at the Center for Neuroscience",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
