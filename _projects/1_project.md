@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Fabrication of 3D Scaffolds and an Assesment of their Viability 
 description: with background image
 img: assets/img/12.jpg
 importance: 1
