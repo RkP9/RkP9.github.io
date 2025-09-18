@@ -402,7 +402,7 @@ ninja.data = [{
         },
       },{id: "projects-fabrication-of-3d-scaffolds-and-an-assesment-of-their-viability",
           title: 'Fabrication of 3D Scaffolds and an Assesment of their Viability',
-          description: "with background image",
+          description: "Conducted at the Institute of Bioinformatics and Biotechnology, SPPU",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-cost-and-punishment-proximity",
