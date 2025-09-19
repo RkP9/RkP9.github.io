@@ -430,11 +430,6 @@ ninja.data = [{
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-cost-and-punishment-proximity",
-          title: 'Cost and Punishment Proximity',
-          description: "Investigating how the timing of negative outcomes shapes decision-making in rodent models at the Indian Institute of Science, Bengaluru.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
