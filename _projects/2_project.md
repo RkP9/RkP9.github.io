@@ -8,23 +8,24 @@ category: work
 giscus_comments: true
 ---
 
-This project dives into a question we all face in different forms: **When faced with an unavoidable negative event, is it better to get it over with quickly or postpone it?** While we know a lot about how people and animals value delayed *rewards* (most prefer a small reward now over a larger one later), we know far less about how we handle delayed *punishments*.
+This project dives into a question we all face in different forms: **When faced with an unavoidable negative event, is it better to get it over with quickly or postpone it?** While we know a lot about how people and animals value delayed _rewards_ (most prefer a small reward now over a larger one later), we know far less about how we handle delayed _punishments_.
 
 This research aimed to find out whether the anxiety of waiting for a negative outcome—what we might call **"dread"**—is a more powerful driver of choice than the immediate discomfort of the punishment itself. To do this, I designed and built a fully automated system to ask this very question to mice.
 
---- 
+---
 
 ### The "How": Building a Fully Automated T-Maze
 
 To precisely measure a mouse's decision-making without human interference, automation was key. Manually running these experiments would be slow and could introduce biases from the experimenter. So, the first major objective was to develop and validate a custom automated T-maze.
 
 The system was designed to handle every aspect of the trial:
-* **Tracking:** Five infrared (IR) sensors tracked the mouse's position, logging exactly when it started a trial, made a choice, and reached its goal.
-* **Control:** An Arduino microcontroller served as the brain, running custom logic to control the experiment.
-* **Actuation:** Servo-controlled doors opened and closed to guide the mouse, preventing it from turning back after making a choice.
-* **Reward & Punishment:** Solenoid valves delivered a precise sucrose water reward, while LED panels delivered a bright, unpleasant light as the punishment.
 
-This setup allowed for the collection of highly accurate, timestamped data, revealing not just *what* the mouse chose, but also *how long* it took to make that decision.
+- **Tracking:** Five infrared (IR) sensors tracked the mouse's position, logging exactly when it started a trial, made a choice, and reached its goal.
+- **Control:** An Arduino microcontroller served as the brain, running custom logic to control the experiment.
+- **Actuation:** Servo-controlled doors opened and closed to guide the mouse, preventing it from turning back after making a choice.
+- **Reward & Punishment:** Solenoid valves delivered a precise sucrose water reward, while LED panels delivered a bright, unpleasant light as the punishment.
+
+This setup allowed for the collection of highly accurate, timestamped data, revealing not just _what_ the mouse chose, but also _how long_ it took to make that decision.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
@@ -44,10 +45,10 @@ This setup allowed for the collection of highly accurate, timestamped data, reve
 
 Once the system was built and validated, it was time to pose the central question to the mice. In the experimental phase, each mouse was presented with a choice in the T-maze:
 
-* Go down **Path A**: Receive an immediate sucrose reward, but also an **immediate** (advanced) flash of bright light.
-* Go down **Path B**: Receive the same immediate sucrose reward, but the flash of bright light is **delayed**.
+- Go down **Path A**: Receive an immediate sucrose reward, but also an **immediate** (advanced) flash of bright light.
+- Go down **Path B**: Receive the same immediate sucrose reward, but the flash of bright light is **delayed**.
 
-In both cases, the reward was the same and the punishment was identical and inescapable. The only difference was **time**. If mice simply disliked the punishment, they should have preferred the delayed path. But if the *anticipation* of the punishment was worse, they might choose to get it over with.
+In both cases, the reward was the same and the punishment was identical and inescapable. The only difference was **time**. If mice simply disliked the punishment, they should have preferred the delayed path. But if the _anticipation_ of the punishment was worse, they might choose to get it over with.
 
 ---
 
